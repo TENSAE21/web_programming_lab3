@@ -1,0 +1,110 @@
+body{
+    background-color: whitesmoke;
+    font-family: Apple Chancery, cursive, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+h2{
+    color:darkolivegreen;
+    text-align: center;
+}
+header{
+    color: black;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+h1{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.lower-section{
+    display: flex;
+   
+    flex-direction: row;
+ }
+
+ section{
+    padding: 20px;
+ }
+
+ div{
+     margin:auto;
+ }
+
+ li{
+     display: inline-block;
+     margin-right: 20px;
+     font-size: 20px;
+     font-weight: bold;
+ }
+ ul{
+     margin:0;
+     padding:0;
+     list-style: none;
+ }
+
+ #welcome_section{
+    background-image: url("Images/welcome_shopping.jpeg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+ #welcome_div{
+
+     width: fit-content;
+     font-size: 20px;
+    font-weight: bold;
+     
+ }
+
+#electronics_section{
+    background-image: url("Images/tech.jpeg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    border: 5px;
+    border-radius: 8px;
+    border-color: red;
+    padding:150px; 
+    color: white;
+    font-size: 20px;
+}
+
+#fashion_section{
+    background-image: url("Images/fashion.jpeg");
+    background-size:   cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    border: 5px;
+    border-radius: 8px;
+    border-color: red;
+    padding:150px; 
+    color: white;
+    font-size: 20px;
+}
+
+
+#cosmetics_section{
+    background-image: url("Images/cosmetics.jpeg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    border: 5px;
+    border-radius: 8px;
+    border-color: red;
+    padding:150px; 
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/*Change the color of at least two elements
+• Change the font properties (family, size, weight, or style) of at least two elements. Some
+standard fonts: Arial, Arial Black, Verdana, Trebuchet MS,Georgia, Tahoma, Courier
+New, Times New Roman
+• Change at least one other thing (e.g. background color, text alignment, etc.)*/
